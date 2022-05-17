@@ -19,7 +19,7 @@ namespace Pen1_website.Resource {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Lang {
@@ -88,6 +88,21 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The device can automatically receive all materials at any time, even 24 hours the library is closed.
+        ///
+        ///BD10265_2.gif System Update (Update) database when slack resources are recovered through the device.
+        ///
+        ///BD10265_2.gif Material through the device automatically return library materials. Can provide the borrower immediately. If a loan officer for books and materials can be stored on shelves immediately.
+        ///
+        ///BD10265_2.gif Do not Re-activate. Or alarm again after the return of the material through the device. [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Book_Drop_Unit_content {
+            get {
+                return ResourceManager.GetString("Book Drop Unit content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cash TopUp and Fine Payment Systems.
         /// </summary>
         public static string Cash_TopUp_and_Fine_Payment_Systems {
@@ -111,6 +126,21 @@ namespace Pen1_website.Resource {
         public static string Circulation_Circuit_Programming_Station {
             get {
                 return ResourceManager.GetString("Circulation Circuit Programming Station", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BD10265_2.gif Devices, data encryption on the circuit board to convert the barcode of the book is already on the library circuits. The ease and speed at a rate of 200 per hour.
+        ///
+        ///BD10265_2.gif When I read the barcode of each book, then the device will convert the barcode to RFID smart circuits automatically in one step. To the circuits. Are to be used immediately.
+        ///
+        ///BD10265_2.gif There are displays of the code. That users can understand and follow the steps easily.
+        ///
+        ///BD10265_2.gif The program helps to de [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Circulation_Circuit_Programming_Station_content {
+            get {
+                return ResourceManager.GetString("Circulation Circuit Programming Station content", resourceCulture);
             }
         }
         
@@ -196,11 +226,52 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Coordination of radio frequency circuits Lend - nights. The management and prevention of theft of materials within the same circuits.
+        ///
+        ///BD10265_2.gifIntelligent circuits. The radio frequency of 13.56 MHz.
+        ///
+        ///BD10265_2.gifCircuits radio takes many forms. By using materials such as books, CD / DVD or video tape.
+        ///
+        ///BD10265_2.gifCheckpoint&apos;s radio frequency circuits for low power operation. The signal and the distance between communication devices with the highest signal. And safe for consumer use.
+        ///
+        ///BD10265 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Intelligent_Library_System_with_FRID_content {
+            get {
+                return ResourceManager.GetString("Intelligent Library System with FRID content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intelligent Library System with FRID
+        ///
+        ///Circulation Circuit.
+        /// </summary>
+        public static string Intelligent_Library_System_with_FRID_header {
+            get {
+                return ResourceManager.GetString("Intelligent Library System with FRID header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Intelligent Library System with RFID.
         /// </summary>
         public static string Intelligent_Library_System_with_RFID {
             get {
                 return ResourceManager.GetString("Intelligent Library System with RFID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intelligent gateway technology, radio frequency (RFID) use radio frequency of 13.56 MHz.
+        ///
+        ///BD10265_2.gifIntelligent gateway with an automated library system. When borrowing library materials that have been through the intelligent. Light and sound system to work. And the material (Identify) that can not be borrowed at the library&apos;s computer screen. Intelligent gateway serves as the RFID (and is listed at the same time) to complete. 
+        ///
+        ///BD10265_2.gifMaterial that is not borrowed. Date and time of admission.  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Intelligent_Library_System_with_RFID_content_1 {
+            get {
+                return ResourceManager.GetString("Intelligent_Library_System_with_RFID content 1", resourceCulture);
             }
         }
         
@@ -219,6 +290,21 @@ namespace Pen1_website.Resource {
         public static string Inventory_Portable_Reader {
             get {
                 return ResourceManager.GetString("Inventory Portable Reader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check the read Hardware of intelligent circuits up to 20 tags per second.
+        ///
+        ///BD10265_2.gif Check books and materials in the library (Inventory Collection) quickly and effectively to monitor statistics (Inventory Collection) books to 250,000 copies in just 3.5 hours.
+        ///
+        ///BD10265_2.gif Book Search (Search items) that you want. The book will be placed behind the statistics are from the book 100 to 10,000 copies of the book is just 8 minutes.
+        ///
+        ///BD10265_2.gif The Book Shelf (Shelf order) signal with the results, [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Inventory_Portable_Reader_content {
+            get {
+                return ResourceManager.GetString("Inventory Portable Reader content", resourceCulture);
             }
         }
         
@@ -277,11 +363,33 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Out RFID Sample Site References.
+        /// </summary>
+        public static string Out_RFID_Sample_Site_References_header {
+            get {
+                return ResourceManager.GetString("Out RFID Sample Site References header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Patron Self-Checkout.
         /// </summary>
         public static string Patron_Self_Checkout {
             get {
                 return ResourceManager.GetString("Patron Self-Checkout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Touch screen (Touch Screen) ease of use. Working with the Graphical User Interface (GUI) that has an animation showing how a user can easily follow.
+        ///
+        ///BD10265_2.gifstandard monitor or flat screen monitor
+        ///
+        ///BD10265_2.gif The Borrowing Library of Checkpoint can read the signal from the surface to 12-inch equipment, materials borrowed must not touch the surface directly. And does not require a specific position. You can read the signal 360 degrees for more convenient and time saving to borrowing. The users h [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Patron_Self_Checkout_content {
+            get {
+                return ResourceManager.GetString("Patron Self-Checkout content", resourceCulture);
             }
         }
         
@@ -313,6 +421,42 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pennueng Holding Co.,Ltd training intelligent Livrary system. With RFID Inteligent Library System at Rajamangala University of Technology Phra Nakhon . Emperor on 11 ,22 February 2011 by a large number of participants was 12 persons.
+        /// </summary>
+        public static string Rajamangala_University_of_Technology_Phra_Nakhon_Library {
+            get {
+                return ResourceManager.GetString("Rajamangala University of Technology Phra Nakhon Library", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pennueng Holding Co., Ltd. is a training school for intelligent library system. With radio frequency technology (RFID Intelligent Library System) at Ramathibodi Hospital on 21 February 2554 by a large number of participants were 37 persons..
+        /// </summary>
+        public static string Ramathibodi_Medical_Library_content {
+            get {
+                return ResourceManager.GetString("Ramathibodi Medical Library content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pennueng Holding Co,. Ltd. Have been chosen to put RFID. The public library of Science to the Board. Ramathibodi Hospital. This includes devices such as RFID. Intelligent door to borrow a book is a series with two sets of self-borrowing –all through the second set and safe return of library books into a series of automated systems.
+        /// </summary>
+        public static string Ramathibodi_Medical_Library_content_2 {
+            get {
+                return ResourceManager.GetString("Ramathibodi Medical Library content 2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ramathibodi Medical Library.
+        /// </summary>
+        public static string Ramathibodi_Medical_Library_header {
+            get {
+                return ResourceManager.GetString("Ramathibodi Medical Library header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to RF-EAS Systems.
         /// </summary>
         public static string RF_EAS_Systems {
@@ -336,6 +480,36 @@ namespace Pen1_website.Resource {
         public static string RFID_Patron_Cards {
             get {
                 return ResourceManager.GetString("RFID Patron Cards", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RFID System Installation Pictures at The Royal Police Cadet Academy.
+        /// </summary>
+        public static string RFID_System_Installation_Pictures_at_The_Royal_Police_Cadet_Academy {
+            get {
+                return ResourceManager.GetString("RFID System Installation Pictures at The Royal Police Cadet Academy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RFID System Installation Pictures at Two Campuses of Mahasarakham University
+        ///.
+        /// </summary>
+        public static string RFID_System_Installation_Pictures_at_Two_Campuses_of_Mahasarakham_University {
+            get {
+                return ResourceManager.GetString("RFID System Installation Pictures at Two Campuses of Mahasarakham University", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RFID System Installation Sample Pictures at The King Mongkut Institute of Technology&apos;s 8 Libraries
+        ///.
+        /// </summary>
+        public static string RFID_System_Installation_Sample_Pictures_at_The_King_Mongkut_Institute_of_Technology_s_8_Libraries {
+            get {
+                return ResourceManager.GetString("RFID System Installation Sample Pictures at The King Mongkut Institute of Technol" +
+                        "ogy\'s 8 Libraries", resourceCulture);
             }
         }
         
@@ -367,6 +541,21 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Equipment on loan - all resources through the library. A radio frequency devices that work with the materials to be borrowed through the device without the need to scan the bar code and a clear signal to prevent theft.
+        ///
+        ///BD10265_2.gif Working with smart RFID circuits frequency 13.56 MHz.
+        ///
+        ///BD10265_2.gif The device can read up to 20 tag per second (Anti-collision).
+        ///
+        ///BD10265_2.gif Equipment on loan - all the resources. I have the highest signal. Was read up to 12 inches from the surface of the device. Als [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Staff_Station_Reader_content {
+            get {
+                return ResourceManager.GetString("Staff Station Reader content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Support.
         /// </summary>
         public static string Support {
@@ -376,11 +565,56 @@ namespace Pen1_website.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pennueng Holding Co,. Ltd. has been selected as the storage system to support the school&apos;s resources and services, information technology, including RFID devices such as RFID. Intelligent door to borrow a book is a self-set a series of loans - all through the second set and safe return of library books into a series of automated systems, including the Library of V-Knowledge..
+        /// </summary>
+        public static string Suratthai_School_content {
+            get {
+                return ResourceManager.GetString("Suratthai School content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suratthai School.
+        /// </summary>
+        public static string Suratthai_School_header {
+            get {
+                return ResourceManager.GetString("Suratthai School header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Training and system maintenance.
         /// </summary>
         public static string Training_and_system_maintenance {
             get {
                 return ResourceManager.GetString("Training and system maintenance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trainning Inventory Reader.
+        /// </summary>
+        public static string Trainning_Inventory_Reader {
+            get {
+                return ResourceManager.GetString("Trainning Inventory Reader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trainning LSC.
+        /// </summary>
+        public static string Trainning_LSC {
+            get {
+                return ResourceManager.GetString("Trainning LSC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trainning RFID System.
+        /// </summary>
+        public static string Trainning_RFID_System {
+            get {
+                return ResourceManager.GetString("Trainning RFID System", resourceCulture);
             }
         }
         
@@ -417,6 +651,15 @@ namespace Pen1_website.Resource {
         public static string Web_Application {
             get {
                 return ResourceManager.GetString("Web Application", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to the EDUCA 2011 booth at the convention center BITEC Bangna during 12-14 Oct 2554.
+        /// </summary>
+        public static string Welcome_to_the_EDUCA_2011 {
+            get {
+                return ResourceManager.GetString("Welcome to the EDUCA 2011", resourceCulture);
             }
         }
     }
