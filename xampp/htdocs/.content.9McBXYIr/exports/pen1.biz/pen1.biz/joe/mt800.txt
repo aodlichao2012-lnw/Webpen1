@@ -1,0 +1,70 @@
+ก่อนอื่นต้องเซ็ทแลนด์การ์ดของเราแบบ Manual ให้มีค่าดังนี้ 
+
+IP : 192.168.1.2 
+Subnet : 255.255.255.0 
+Gateway : 192.168.1.1 
+Primary DNS : 192.168.1.1 
+
+ต่อจากนั้นทำดังนี้ 
+
+เซ็ทอัพ Ethernet Modem : Huawei smartAX MT800 ของทรูให้เป็นเราเตอร์ และนำไปใช้งานกับ ISP เจ้าอื่นได้ 
+
+เข้าไป set ค่าต่างๆ ได้ตามนี้ครับโดยเปิด internet explorer ที่ address bar พิมพ์ http://192.168.1.1 
+
+username : admin 
+password : mi^8iNxvgi=yjo (พิมพ์เป็นภาษาไทยในรูปภาษาอังกฤษว่า ทรูคอร์ปอเรชั่น) 
+
+
+
+---> ATM setting page set ดังนี้ 
+
+Connection Type = PPP 
+PPPoA/PPPoE: = PPPoE 
+Service Name = TrueHiSpeed 
+Username = xxx@truehisp (แล้วแต่ของแต่ละคนนะ) 
+password = xxxxxxxxxx 
+use DNS = enable 
+
+กด submit 
+
+click ด้านล่างตรง status (รูปแว่นขยาย) 
+
+Change Status = Always on 
+
+กด submit --> จากนั้น ไฟ link จะเป็นสีส้ม 
+
+กด close 
+
+
+
+---> DHCP Mode page 
+
+เลือก DHCP Server (ไม่ต้องตั้งอะไรเพิ่มเติม) 
+
+กด submit 
+
+
+
+---> DNS page 
+
+DNS Relay=Enable (ค่า DNS ที่เหลือปล่อยว่างไว้ จะเป็น Automatic 
+Primary DNS Server = 
+Secondary DNS Server = 
+
+กด Submit 
+
+
+
+---> Save & Reboot page 
+
+เลือก Save 
+
+กด Submit
+
+
+--------------------------------------------------------------------------------
+Yahoo! Messenger with Voice. Make PC-to-Phone Calls to the US (and 30+ countries) for 2ข/min or less.
+
+
+--------------------------------------------------------------------------------
+How low will we go? Check out Yahoo! Messenger’s low PC-to-Phone call rates.

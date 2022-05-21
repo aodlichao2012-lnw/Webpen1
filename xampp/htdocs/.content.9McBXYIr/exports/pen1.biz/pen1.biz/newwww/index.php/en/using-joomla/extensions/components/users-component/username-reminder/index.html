@@ -1,0 +1,235 @@
+<html lang="en-gb" dir="ltr">
+<head>
+  <base href="/newwww/index.php/en/using-joomla/extensions/components/users-component/username-reminder" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Username Reminder Request</title>
+  <link href="/newwww/templates/beez_20/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <style type="text/css">
+  /*<![CDATA[*/
+  #toTop {width:100px;z-index: 10;border: 1px solid #333; background:#121212; text-align:center; padding:5px; position:fixed; bottom:0px; right:0px; cursor:pointer; display:none; color:#fff;text-transform: lowercase; font-size: 0.7em;}
+  /*]]>*/
+  </style>
+  <script src="/newwww/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+  <script src="/newwww/media/plg_jblibrary/jquery/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="/newwww/media/plg_jblibrary/jquery/jquery.lazyload.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/newwww/media/system/js/validate.js" type="text/javascript"></script>
+  <script src="/newwww/templates/beez_20/javascript/md_stylechanger.js" type="text/javascript" defer="defer"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  function keepAlive() {  var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });
+  window.addEvent('domready', function() {
+                        $$('.hasTip').each(function(el) {
+                                var title = el.get('title');
+                                if (title) {
+                                        var parts = title.split('::', 2);
+                                        el.store('tip:title', parts[0]);
+                                        el.store('tip:text', parts[1]);
+                                }
+                        });
+                        var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+                });
+  //]]>
+  </script>
+  <link rel="stylesheet" href="/newwww/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/newwww/templates/beez_20/css/position.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/newwww/templates/beez_20/css/layout.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/newwww/templates/beez_20/css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="/newwww/templates/beez_20/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/newwww/templates/beez_20/css/.css" type="text/css" />
+  <script type="text/javascript" src="/newwww/templates/beez_20/javascript/hide.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+                        var big ='0%';
+                        var small='0%';
+                        var altopen='is open';
+                        var altclose='is closed';
+                        var bildauf='/newwww/templates/beez_20/images/plus.png';
+                        var bildzu='/newwww/templates/beez_20/images/minus.png';
+                        var rightopen='Open info';
+                        var rightclose='Close info';
+                        var fontSizeTitle='Font size';
+                        var bigger='Bigger';
+                        var reset='Reset';
+                        var smaller='Smaller';
+                        var biggerTitle='Increase size';
+                        var resetTitle='Revert styles to default';
+                        var smallerTitle='Decrease size';
+  //]]>
+  </script>
+</head>
+<body>
+  <div id="all">
+    <div id="back">
+      <div id="header">
+        <div class="logoheader">
+          <h1 id="logo"><span class="header1"></span></h1>
+        </div>
+        <ul class="skiplinks">
+          <li><a href="#main" class="u2">Skip to content</a></li>
+          <li><a href="#nav" class="u2">Jump to main navigation and login</a></li>
+        </ul>
+        <h2 class="unseen">Nav view search</h2>
+        <h3 class="unseen">Navigation</h3>
+        <ul class="menu">
+          <li class="item-673"><a href="/newwww/index.php/en/">Home</a></li>
+          <li class="item-468 deeper parent">
+            <a href="/newwww/index.php/en/product">Product</a>
+            <ul>
+              <li class="item-687 deeper parent">
+                <a href="/newwww/index.php/en/product/intelligent-library">Intelligent Library System with RFID</a>
+                <ul>
+                  <li class="item-689"><a href="/newwww/index.php/en/product/intelligent-library/intelligent-sensors-gate">Intelligent Sensors Gate</a></li>
+                  <li class="item-690"><a href="/newwww/index.php/en/product/intelligent-library/circulation-circuit">Circulation Circuit</a></li>
+                  <li class="item-693"><a href="/newwww/index.php/en/product/intelligent-library/patron-self-checkout">Patron Self-Checkout</a></li>
+                  <li class="item-695"><a href="/newwww/index.php/en/product/intelligent-library/staff-station-reader">Staff Station Reader</a></li>
+                  <li class="item-697"><a href="/newwww/index.php/en/product/intelligent-library/inventory-portable-reader">Inventory Portable Reader</a></li>
+                  <li class="item-699"><a href="/newwww/index.php/en/product/intelligent-library/book-drop-unit">Book Drop Unit</a></li>
+                  <li class="item-701"><a href="/newwww/index.php/en/product/intelligent-library/circulation">Circulation Circuit Programming Station</a></li>
+                  <li class="item-703"><a href="/newwww/index.php/en/product/intelligent-library/ils">ILS Controller</a></li>
+                  <li class="item-706"><a href="/newwww/index.php/en/product/intelligent-library/rfid-patron-cards">RFID Patron Cards</a></li>
+                  <li class="item-710"><a href="/newwww/index.php/en/product/intelligent-library/training-and-system-maintenance">Training and system maintenance</a></li>
+                  <li class="item-712"><a href="/newwww/index.php/en/product/intelligent-library/other-details">Other details</a></li>
+                  <li class="item-760"><a href="/newwww/index.php/en/product/intelligent-library/our-sample-references">Our Sample References</a></li>
+                  <li class="item-765"><a href="/newwww/index.php/en/product/intelligent-library/rfid-31">RFID Map</a></li>
+                </ul>
+              </li>
+              <li class="item-726 deeper parent">
+                <a href="/newwww/index.php/en/product/library-management">Library Management Systems</a>
+                <ul>
+                  <li class="item-728"><a href="/newwww/index.php/en/product/library-management/v-knowledge-3">V-Knowledge</a></li>
+                  <li class="item-730"><a href="/newwww/index.php/en/product/library-management/mercury-3">Mercury</a></li>
+                </ul>
+              </li>
+              <li class="item-708"><a href="/newwww/index.php/en/product/cash">Cash TopUp and Fine Payment Systems</a></li>
+              <li class="item-767 deeper parent">
+                <a href="/newwww/index.php/en/product/warehouse-management-system-with-rfid">Warehouse Management System with RFID</a>
+                <ul>
+                  <li class="item-771"><a href="/newwww/index.php/en/product/warehouse-management-system-with-rfid/web-application">Web Application</a></li>
+                  <li class="item-772"><a href="/newwww/index.php/en/product/warehouse-management-system-with-rfid/gate-portal-monitor">Gate Portal Monitor</a></li>
+                  <li class="item-773"><a href="/newwww/index.php/en/product/warehouse-management-system-with-rfid/handheld-application">Handheld Application</a></li>
+                </ul>
+              </li>
+              <li class="item-723"><a href="/newwww/index.php/en/product/electromagnetic">Electromagnetic Security</a></li>
+              <li class="item-714"><a href="/newwww/index.php/en/product/rf-eas">RF-EAS Systems</a></li>
+              <li class="item-716"><a href="/newwww/index.php/en/product/barcode">Barcode Systems</a></li>
+              <li class="item-718 deeper parent">
+                <a href="/newwww/index.php/en/product/pos-3">POS</a>
+                <ul>
+                  <li class="item-720"><a href="/newwww/index.php/en/product/pos-3/pos-3">POS</a></li>
+                  <li class="item-722"><a href="/newwww/index.php/en/product/pos-3/cash-drawer-3">Cash Drawer</a></li>
+                </ul>
+              </li>
+              <li class="item-776"><a href="/newwww/index.php/en/product/mifare-reader">Mifare Reader</a></li>
+              <li class="item-732 deeper parent">
+                <a href="/newwww/index.php/en/product/hand-labeling">Hand Labeling Systems</a>
+                <ul>
+                  <li class="item-734"><a href="/newwww/index.php/en/product/hand-labeling/hand-labeling-one-line">Hand Labeling One-Line</a></li>
+                  <li class="item-736"><a href="/newwww/index.php/en/product/hand-labeling/hand-labeling-two-line">Hand Labeling Two-Line</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="item-740 deeper parent">
+            <a href="/newwww/index.php/en/service-3">Service</a>
+            <ul>
+              <li class="item-742"><a href="/newwww/index.php/en/service-3/service">Service</a></li>
+              <li class="item-744"><a href="/newwww/index.php/en/service-3/transport">Transport</a></li>
+            </ul>
+          </li>
+          <li class="item-746"><a href="/newwww/index.php/en/promotion-3">Promotion</a></li>
+          <li class="item-748"><a href="/newwww/index.php/en/support-3">Support</a></li>
+          <li class="item-750"><a href="/newwww/index.php/en/about-us-3">About Us</a></li>
+          <li class="item-752"><a href="/newwww/index.php/en/news-3">News</a></li>
+          <li class="item-754"><a href="/newwww/index.php/en/job">Job@pen1</a></li>
+          <li class="item-756"><a href="/newwww/index.php/en/contact">Contact Us</a></li>
+          <li class="item-758"><a href="/newwww/index.php/en/site-3">Site map</a></li>
+        </ul>
+        <div id="line">
+          <div id="fontsize"></div>
+          <h3 class="unseen">Search</h3>
+        </div>
+      </div>
+      <div id="contentarea">
+        <div id="breadcrumbs"></div>
+        <div id="wrapper2">
+          <div id="main">
+            <div id="system-message-container">
+              <dl id="system-message">
+                <dt class="error">Error</dt>
+                <dd class="error message">
+                  <ul>
+                    <li><strong>The template for this display is not available. Please contact a Site administrator.</strong></li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+            <div class="remind">
+              <form id="user-registration" action="/newwww/index.php/en/using-joomla/extensions/components/users-component/username-reminder?task=remind.remind" method="post" class="form-validate" name="user-registration">
+                <p>Please enter the email address associated with your User account. Your username will be emailed to the email address on file.</p>
+                <fieldset>
+                  <dl>
+                    <dt><label id="jform_email-lbl" for="jform_email" class="hasTip required" title="Email Address::Please enter the email address associated with your User account.&lt;br /&gt; Your username will be emailed to the email address on file.">Email Address:<span class="star">&#160;*</span></label></dt>
+                    <dd><input type="text" name="jform[email]" class="validate-email required" id="jform_email" value="" size="30" /></dd>
+                    <dt></dt>
+                    <dd></dd>
+                  </dl>
+                </fieldset>
+                <div>
+                  <button type="submit" class="validate">Submit</button> <input type="hidden" name="fda632b6983f6ce4076e023d29f120b4" value="1" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="wrap"></div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-outer">
+    <div id="footer-sub">
+      <div id="footer">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+                        jQuery(document).ready(function(){
+                                jQuery(function () {
+                                var scrollDiv = document.createElement("div");
+                                jQuery(scrollDiv).attr("id", "toTop").html("^ Back To Top").appendTo("body");    
+                                jQuery(window).scroll(function () {
+                                                if (jQuery(this).scrollTop() != 0) {
+                                                        jQuery("#toTop").fadeIn();
+                                                } else {
+                                                        jQuery("#toTop").fadeOut();
+                                                }
+                                        });
+                                        jQuery("#toTop").click(function () {
+                                                jQuery("body,html").animate({
+                                                        scrollTop: 0
+                                                },
+                                                800);
+                                        });
+                                });
+                        });
+  //]]>
+  </script> 
+  <script type="text/javascript">
+  //<![CDATA[
+
+
+                        jQuery(document).ready(function(){jQuery("img").lazyload({ 
+                    effect : "fadeIn" 
+                    });
+                });
+  //]]>
+  </script>
+</body>
+</html>
